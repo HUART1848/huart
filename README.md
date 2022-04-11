@@ -1,2 +1,2 @@
-# huart
+# huart.ch
 Personal website
