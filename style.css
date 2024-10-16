@@ -35,19 +35,19 @@
 
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     h2 {
-        font-size: 1em;
+        font-size: 2em;
     }
 
     p {
-        font-size: 0.5em;
+        font-size: 1em;
     }
 
     li {
-        font-size: 0.5em;
+        font-size: 1em;
     }
 
     .content {
@@ -63,7 +63,7 @@
     .photo-group > img {
         margin-right: 5px;
         margin-top: 5px;
-        height: 200px;
+        height: 300px;
         object-fit: scale-down;
     }
 }
