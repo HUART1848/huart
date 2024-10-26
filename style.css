@@ -1,18 +1,50 @@
-@media only screen and (min-width: 600px) {
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+li {
+    font-size: 16px;
+}
+
+.content {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.photo-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-group > .photo {
+    margin-right: 5px;
+    margin-top: 5px;
+    height: 400px;
+}
+
+@media only screen and (min-width: 777px) {
     h1 {
-        font-size: 3em;
+        font-size: 50px;
     }
 
     h2 {
-        font-size: 2.5em;
+        font-size: 30px;
     }
 
     p {
-        font-size: 2em;
+        font-size: 20px;
     }
 
     li {
-        font-size: 2em;
+        font-size: 20px;
     }
 
     .content {
@@ -25,45 +57,9 @@
         flex-wrap: wrap;
     }
 
-    .photo-group > img {
+    .photo-group > .photo {
         margin-right: 10px;
         margin-top: 10px;
-        height: 600px;
-        object-fit: scale-down;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 3em;
-    }
-
-    h2 {
-        font-size: 2em;
-    }
-
-    p {
-        font-size: 1em;
-    }
-
-    li {
-        font-size: 1em;
-    }
-
-    .content {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .photo-group {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .photo-group > img {
-        margin-right: 5px;
-        margin-top: 5px;
-        height: 300px;
-        object-fit: scale-down;
+        height: 400px;
     }
 }
